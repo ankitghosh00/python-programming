@@ -1,0 +1,22 @@
+You can write any code you like in the window below. There are three files loaded and ready for you to open if you want to do file processing: "mbox-short.txt", "romeo.txt", and "words.txt".
+
+
+INPUT:
+# The code below almost wor
+fh = open("romeo.txt", "r")
+
+count = 0
+for line in fh:
+    print(line.strip())
+    count = count + 1
+
+print(count,"Lines")
+
+
+
+OUTPUT:
+But soft what light through yonder window breaks
+It is the east and Juliet is the sun
+Arise fair sun and kill the envious moon
+Who is already sick and pale with grief
+4 Lines
