@@ -1,0 +1,8 @@
+Install Python and a programming text editor and write a program that prints one line other than 'hello world', then take two screen shots and upload them below. You should use the command line to execute the Python program you wrote in the text editor.
+
+
+INPUT:
+   print("Hello World")
+ 
+OUTPUT: 
+   hello world
